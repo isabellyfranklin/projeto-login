@@ -15,6 +15,29 @@ lilar #5f2c82
 
 body, html{
     background-color: #5f2c82;
-    eh
+    height: 100vh;
+    width: 100vh;
+}
 
+main{
+    position: relative;
+    height:100vh;
+    width:100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 6px black;
+}
+
+section#login{
+    background: #5f2c82 url(../imagem/pexels-pixabay-301664.jpg) center center no-repeat ;
+    background-size: cover;
 }
