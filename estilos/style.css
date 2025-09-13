@@ -30,14 +30,21 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: rgb(232, 232, 232);
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 5px 8px 6px black;
 }
 
-section#login{
-    background: #5f2c82 url(../imagem/pexels-pixabay-301664.jpg) center center no-repeat ;
+section#login > div#imagem{
+    background: #5f2c82 url(../imagem/metal.jpg) left bottom no-repeat ;
+    height: 200px;
     background-size: cover;
+    border-radius: 20px 20px 0 0; 
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
